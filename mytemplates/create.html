@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>submit</title>
+</head>
+<body style="background-color:green;">
+<form>
+    <center>
+        {{eid}}
+               <label style="color:pink" for=" eid">eid: </label>
+        <input type="text" name="eid" value="{{eid}}" placeholder="eid" required> <br>
+                 <label style="color:pink" for=" ename">ename: </label>
+        <input type="text" name="ename" value="{{ename}}" placeholder="ename" required> <br>
+                 <label style="color:pink" for=" eemail">eemail: </label>
+        <input type="text" name="eemail" value="{{eemail}}" placeholder="eemail" required> <br>
+                 <label style="color:pink" for=" econtact">econtact: </label>
+        <input type="text" name="econtact" value="{{econtact}}" placeholder="econtact" required> <br>
+
+
+        <select name="option">
+            <option value="submit">save</option>
+        </select>
+        <br/>
+        <input type="submit" value="submit"/>
+        <br>
+        <h2>{{submit}}</h2>
+
+    </center>
+</form>
+
+</body>
+</html>
